@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "13 01",
+        "remarks": "God 01",
         "log": {
             "loglevel": "warning"
         },
@@ -8,27 +8,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -87,7 +70,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "newserver-50p.pages.dev",
+                            "address": "server2-bnl.pages.dev",
                             "port": 443,
                             "users": [
                                 {
@@ -110,10 +93,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/E3s7k5cf2x4aYMhr?ed=2560"
+                        "path": "/JGU1UrYu68SSHWsI?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -122,7 +105,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NeWsErvER-50P.paGes.dEv"
+                        "serverName": "seRvER2-Bnl.pAGes.DEV"
                     }
                 },
                 "tag": "proxy"
@@ -199,38 +182,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -240,7 +191,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 02",
+        "remarks": "God 02",
         "log": {
             "loglevel": "warning"
         },
@@ -248,27 +199,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -350,10 +284,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/8K2USGSOAhQufZzO?ed=2560"
+                        "path": "/f4zwPR2GKlb3SyAX?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -362,7 +296,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NewSERveR-50p.pagEs.DEv"
+                        "serverName": "sErVer2-BNL.PaGEs.dev"
                     }
                 },
                 "tag": "proxy"
@@ -439,38 +373,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -480,7 +382,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 03",
+        "remarks": "God 03",
         "log": {
             "loglevel": "warning"
         },
@@ -488,27 +390,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -567,7 +452,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.66.47.156",
+                            "address": "188.114.96.3",
                             "port": 443,
                             "users": [
                                 {
@@ -590,10 +475,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/KBerDGzGMqvoTyL8?ed=2560"
+                        "path": "/VEZy4uXwPUtBvm1y?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -602,7 +487,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NEwSErVer-50p.PAGeS.dev"
+                        "serverName": "serveR2-BNl.PAgeS.dEV"
                     }
                 },
                 "tag": "proxy"
@@ -679,38 +564,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -720,7 +573,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 04",
+        "remarks": "God 04",
         "log": {
             "loglevel": "warning"
         },
@@ -728,27 +581,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -807,7 +643,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.66.44.100",
+                            "address": "188.114.97.3",
                             "port": 443,
                             "users": [
                                 {
@@ -830,10 +666,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/fLl6g9FAPltZizYG?ed=2560"
+                        "path": "/pl8lMP6qShbsDtwW?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -842,7 +678,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NewSERVer-50p.PagEs.deV"
+                        "serverName": "SeRveR2-BNL.PaGEs.dev"
                     }
                 },
                 "tag": "proxy"
@@ -919,38 +755,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -960,7 +764,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 05",
+        "remarks": "God 05",
         "log": {
             "loglevel": "warning"
         },
@@ -968,27 +772,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -1047,7 +834,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2606:4700:310c::ac42:2c64]",
+                            "address": "[2a06:98c1:3120::3]",
                             "port": 443,
                             "users": [
                                 {
@@ -1070,10 +857,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/9cDXfAk8lkplrQjK?ed=2560"
+                        "path": "/jvfx99tBcDnsH4QU?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -1082,7 +869,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "nEwsERvEr-50P.PaGEs.dEv"
+                        "serverName": "servER2-BNl.paGeS.dev"
                     }
                 },
                 "tag": "proxy"
@@ -1159,38 +946,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -1200,7 +955,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 06",
+        "remarks": "God 06",
         "log": {
             "loglevel": "warning"
         },
@@ -1208,27 +963,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -1287,7 +1025,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2606:4700:310c::ac42:2f9c]",
+                            "address": "[2a06:98c1:3121::3]",
                             "port": 443,
                             "users": [
                                 {
@@ -1310,10 +1048,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/b3hPVDVVKNZkYM9Q?ed=2560"
+                        "path": "/Vc5tLOq3XHaaE6KR?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -1322,7 +1060,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NEWSErvEr-50p.pAgEs.deV"
+                        "serverName": "SErver2-BNl.pAGEs.dev"
                     }
                 },
                 "tag": "proxy"
@@ -1399,38 +1137,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -1440,7 +1146,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 07",
+        "remarks": "God 07",
         "log": {
             "loglevel": "warning"
         },
@@ -1448,27 +1154,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -1527,7 +1216,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.20.91.0",
+                            "address": "104.25.162.106",
                             "port": 443,
                             "users": [
                                 {
@@ -1550,10 +1239,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/70frQXlI5QJppF8w?ed=2560"
+                        "path": "/5zlgInwNkyPPA4p1?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -1562,7 +1251,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NewSERVer-50P.paGes.dEV"
+                        "serverName": "SErvEr2-bNL.Pages.DeV"
                     }
                 },
                 "tag": "proxy"
@@ -1639,38 +1328,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -1680,7 +1337,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 08",
+        "remarks": "God 08",
         "log": {
             "loglevel": "warning"
         },
@@ -1688,27 +1345,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -1767,7 +1407,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.22.8.11",
+                            "address": "104.19.78.120",
                             "port": 443,
                             "users": [
                                 {
@@ -1790,10 +1430,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/Vce1g6YWBHIs6vPo?ed=2560"
+                        "path": "/Z63p5eJZ1ht8SumU?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -1802,7 +1442,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NEwservER-50P.PAges.DEv"
+                        "serverName": "SErveR2-bNL.pAgeS.DEV"
                     }
                 },
                 "tag": "proxy"
@@ -1879,38 +1519,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -1920,7 +1528,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 09",
+        "remarks": "God 09",
         "log": {
             "loglevel": "warning"
         },
@@ -1928,27 +1536,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -2007,7 +1598,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "newserver-50p.pages.dev",
+                            "address": "server2-bnl.pages.dev",
                             "port": 2053,
                             "users": [
                                 {
@@ -2030,10 +1621,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/55G5yfFh57d7Bsci?ed=2560"
+                        "path": "/muVTjHaswGaVJEN1?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -2042,7 +1633,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NEWseRvER-50p.PAgeS.dEv"
+                        "serverName": "sERvEr2-BNL.PagEs.deV"
                     }
                 },
                 "tag": "proxy"
@@ -2119,38 +1710,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -2160,7 +1719,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 10",
+        "remarks": "God 10",
         "log": {
             "loglevel": "warning"
         },
@@ -2168,27 +1727,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -2270,10 +1812,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/nwVFcmrWT7s0bhZr?ed=2560"
+                        "path": "/gnpuYGBthS2wn5ak?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -2282,7 +1824,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "nEWservER-50p.PaGES.dEv"
+                        "serverName": "servER2-BnL.pagES.DEV"
                     }
                 },
                 "tag": "proxy"
@@ -2359,38 +1901,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -2400,7 +1910,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 11",
+        "remarks": "God 11",
         "log": {
             "loglevel": "warning"
         },
@@ -2408,27 +1918,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -2487,7 +1980,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.66.47.156",
+                            "address": "188.114.96.3",
                             "port": 2053,
                             "users": [
                                 {
@@ -2510,10 +2003,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/wdmYMx1iLDrThb6e?ed=2560"
+                        "path": "/9fLO19N2w5xh1CUa?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -2522,7 +2015,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "neWservER-50p.paGes.dEv"
+                        "serverName": "SErvEr2-bnl.PAGEs.dev"
                     }
                 },
                 "tag": "proxy"
@@ -2599,38 +2092,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -2640,7 +2101,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 12",
+        "remarks": "God 12",
         "log": {
             "loglevel": "warning"
         },
@@ -2648,27 +2109,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -2727,7 +2171,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.66.44.100",
+                            "address": "188.114.97.3",
                             "port": 2053,
                             "users": [
                                 {
@@ -2750,10 +2194,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/NHEozoCgpU6osvfX?ed=2560"
+                        "path": "/5tvVnfgowejOcaXU?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -2762,7 +2206,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "nEwSErvER-50p.PAGeS.DEv"
+                        "serverName": "seRver2-BNL.paGEs.DEV"
                     }
                 },
                 "tag": "proxy"
@@ -2839,38 +2283,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -2880,7 +2292,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 13",
+        "remarks": "God 13",
         "log": {
             "loglevel": "warning"
         },
@@ -2888,27 +2300,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -2967,7 +2362,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2606:4700:310c::ac42:2c64]",
+                            "address": "[2a06:98c1:3120::3]",
                             "port": 2053,
                             "users": [
                                 {
@@ -2990,10 +2385,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/Zu9Jv9gL7NFLI8Kz?ed=2560"
+                        "path": "/G7ud4xeRvkjDo4r7?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -3002,7 +2397,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "newSeRvEr-50p.PaGes.DeV"
+                        "serverName": "SErVeR2-bNl.paGEs.Dev"
                     }
                 },
                 "tag": "proxy"
@@ -3079,38 +2474,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -3120,7 +2483,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 14",
+        "remarks": "God 14",
         "log": {
             "loglevel": "warning"
         },
@@ -3128,27 +2491,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -3207,7 +2553,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2606:4700:310c::ac42:2f9c]",
+                            "address": "[2a06:98c1:3121::3]",
                             "port": 2053,
                             "users": [
                                 {
@@ -3230,10 +2576,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/3Gxq7Gnvjtsc75dp?ed=2560"
+                        "path": "/G3ay8AwQB4sy1hoe?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -3242,7 +2588,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "nEwSERVeR-50P.PaGEs.dEV"
+                        "serverName": "sErveR2-BnL.pagES.DEV"
                     }
                 },
                 "tag": "proxy"
@@ -3319,38 +2665,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -3360,7 +2674,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 15",
+        "remarks": "God 15",
         "log": {
             "loglevel": "warning"
         },
@@ -3368,27 +2682,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -3447,7 +2744,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.20.91.0",
+                            "address": "104.25.162.106",
                             "port": 2053,
                             "users": [
                                 {
@@ -3470,10 +2767,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/9uOs2Wf3GZRTTnei?ed=2560"
+                        "path": "/V5vh5xR76vAuocGP?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -3482,7 +2779,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "neWSERvEr-50p.pAgeS.Dev"
+                        "serverName": "sErVEr2-BNL.pAGES.Dev"
                     }
                 },
                 "tag": "proxy"
@@ -3559,38 +2856,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -3600,7 +2865,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 16",
+        "remarks": "God 16",
         "log": {
             "loglevel": "warning"
         },
@@ -3608,27 +2873,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -3687,7 +2935,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.22.8.11",
+                            "address": "104.19.78.120",
                             "port": 2053,
                             "users": [
                                 {
@@ -3710,10 +2958,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/NjQMRKi9fvvNUIf7?ed=2560"
+                        "path": "/QvbHcF1zOSfCAP6n?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -3722,7 +2970,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NEWSErVer-50p.pAgEs.DeV"
+                        "serverName": "SeRver2-bNl.PaGes.dev"
                     }
                 },
                 "tag": "proxy"
@@ -3799,38 +3047,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "outboundTag": "proxy",
                     "type": "field"
@@ -3840,7 +3056,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 17",
+        "remarks": "God 17",
         "log": {
             "loglevel": "warning"
         },
@@ -3848,27 +3064,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -3927,7 +3126,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "newserver-50p.pages.dev",
+                            "address": "server2-bnl.pages.dev",
                             "port": 443,
                             "users": [
                                 {
@@ -3950,10 +3149,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/E3s7k5cf2x4aYMhr?ed=2560"
+                        "path": "/JGU1UrYu68SSHWsI?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -3962,7 +3161,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NeWsErvER-50P.paGes.dEv"
+                        "serverName": "seRvER2-Bnl.pAGes.DEV"
                     }
                 },
                 "tag": "prox-1"
@@ -3995,10 +3194,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/8K2USGSOAhQufZzO?ed=2560"
+                        "path": "/f4zwPR2GKlb3SyAX?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4007,7 +3206,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NewSERveR-50p.pagEs.DEv"
+                        "serverName": "sErVer2-BNL.PaGEs.dev"
                     }
                 },
                 "tag": "prox-2"
@@ -4017,7 +3216,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.66.47.156",
+                            "address": "188.114.96.3",
                             "port": 443,
                             "users": [
                                 {
@@ -4040,10 +3239,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/KBerDGzGMqvoTyL8?ed=2560"
+                        "path": "/VEZy4uXwPUtBvm1y?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4052,7 +3251,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NEwSErVer-50p.PAGeS.dev"
+                        "serverName": "serveR2-BNl.PAgeS.dEV"
                     }
                 },
                 "tag": "prox-3"
@@ -4062,7 +3261,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.66.44.100",
+                            "address": "188.114.97.3",
                             "port": 443,
                             "users": [
                                 {
@@ -4085,10 +3284,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/fLl6g9FAPltZizYG?ed=2560"
+                        "path": "/pl8lMP6qShbsDtwW?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4097,7 +3296,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NewSERVer-50p.PagEs.deV"
+                        "serverName": "SeRveR2-BNL.PaGEs.dev"
                     }
                 },
                 "tag": "prox-4"
@@ -4107,7 +3306,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2606:4700:310c::ac42:2c64]",
+                            "address": "[2a06:98c1:3120::3]",
                             "port": 443,
                             "users": [
                                 {
@@ -4130,10 +3329,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/9cDXfAk8lkplrQjK?ed=2560"
+                        "path": "/jvfx99tBcDnsH4QU?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4142,7 +3341,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "nEwsERvEr-50P.PaGEs.dEv"
+                        "serverName": "servER2-BNl.paGeS.dev"
                     }
                 },
                 "tag": "prox-5"
@@ -4152,7 +3351,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2606:4700:310c::ac42:2f9c]",
+                            "address": "[2a06:98c1:3121::3]",
                             "port": 443,
                             "users": [
                                 {
@@ -4175,10 +3374,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/b3hPVDVVKNZkYM9Q?ed=2560"
+                        "path": "/Vc5tLOq3XHaaE6KR?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4187,7 +3386,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NEWSErvEr-50p.pAgEs.deV"
+                        "serverName": "SErver2-BNl.pAGEs.dev"
                     }
                 },
                 "tag": "prox-6"
@@ -4197,7 +3396,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.20.91.0",
+                            "address": "104.25.162.106",
                             "port": 443,
                             "users": [
                                 {
@@ -4220,10 +3419,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/70frQXlI5QJppF8w?ed=2560"
+                        "path": "/5zlgInwNkyPPA4p1?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4232,7 +3431,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NewSERVer-50P.paGes.dEV"
+                        "serverName": "SErvEr2-bNL.Pages.DeV"
                     }
                 },
                 "tag": "prox-7"
@@ -4242,7 +3441,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.22.8.11",
+                            "address": "104.19.78.120",
                             "port": 443,
                             "users": [
                                 {
@@ -4265,10 +3464,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/Vce1g6YWBHIs6vPo?ed=2560"
+                        "path": "/Z63p5eJZ1ht8SumU?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4277,7 +3476,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NEwservER-50P.PAges.DEv"
+                        "serverName": "SErveR2-bNL.pAgeS.DEV"
                     }
                 },
                 "tag": "prox-8"
@@ -4287,7 +3486,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "newserver-50p.pages.dev",
+                            "address": "server2-bnl.pages.dev",
                             "port": 2053,
                             "users": [
                                 {
@@ -4310,10 +3509,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/55G5yfFh57d7Bsci?ed=2560"
+                        "path": "/muVTjHaswGaVJEN1?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4322,7 +3521,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NEWseRvER-50p.PAgeS.dEv"
+                        "serverName": "sERvEr2-BNL.PagEs.deV"
                     }
                 },
                 "tag": "prox-9"
@@ -4355,10 +3554,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/nwVFcmrWT7s0bhZr?ed=2560"
+                        "path": "/gnpuYGBthS2wn5ak?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4367,7 +3566,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "nEWservER-50p.PaGES.dEv"
+                        "serverName": "servER2-BnL.pagES.DEV"
                     }
                 },
                 "tag": "prox-10"
@@ -4377,7 +3576,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.66.47.156",
+                            "address": "188.114.96.3",
                             "port": 2053,
                             "users": [
                                 {
@@ -4400,10 +3599,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/wdmYMx1iLDrThb6e?ed=2560"
+                        "path": "/9fLO19N2w5xh1CUa?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4412,7 +3611,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "neWservER-50p.paGes.dEv"
+                        "serverName": "SErvEr2-bnl.PAGEs.dev"
                     }
                 },
                 "tag": "prox-11"
@@ -4422,7 +3621,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.66.44.100",
+                            "address": "188.114.97.3",
                             "port": 2053,
                             "users": [
                                 {
@@ -4445,10 +3644,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/NHEozoCgpU6osvfX?ed=2560"
+                        "path": "/5tvVnfgowejOcaXU?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4457,7 +3656,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "nEwSErvER-50p.PAGeS.DEv"
+                        "serverName": "seRver2-BNL.paGEs.DEV"
                     }
                 },
                 "tag": "prox-12"
@@ -4467,7 +3666,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2606:4700:310c::ac42:2c64]",
+                            "address": "[2a06:98c1:3120::3]",
                             "port": 2053,
                             "users": [
                                 {
@@ -4490,10 +3689,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/Zu9Jv9gL7NFLI8Kz?ed=2560"
+                        "path": "/G7ud4xeRvkjDo4r7?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4502,7 +3701,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "newSeRvEr-50p.PaGes.DeV"
+                        "serverName": "SErVeR2-bNl.paGEs.Dev"
                     }
                 },
                 "tag": "prox-13"
@@ -4512,7 +3711,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "[2606:4700:310c::ac42:2f9c]",
+                            "address": "[2a06:98c1:3121::3]",
                             "port": 2053,
                             "users": [
                                 {
@@ -4535,10 +3734,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/3Gxq7Gnvjtsc75dp?ed=2560"
+                        "path": "/G3ay8AwQB4sy1hoe?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4547,7 +3746,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "nEwSERVeR-50P.PaGEs.dEV"
+                        "serverName": "sErveR2-BnL.pagES.DEV"
                     }
                 },
                 "tag": "prox-14"
@@ -4557,7 +3756,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.20.91.0",
+                            "address": "104.25.162.106",
                             "port": 2053,
                             "users": [
                                 {
@@ -4580,10 +3779,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/9uOs2Wf3GZRTTnei?ed=2560"
+                        "path": "/V5vh5xR76vAuocGP?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4592,7 +3791,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "neWSERvEr-50p.pAgeS.Dev"
+                        "serverName": "sErVEr2-BNL.pAGES.Dev"
                     }
                 },
                 "tag": "prox-15"
@@ -4602,7 +3801,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.22.8.11",
+                            "address": "104.19.78.120",
                             "port": 2053,
                             "users": [
                                 {
@@ -4625,10 +3824,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/NjQMRKi9fvvNUIf7?ed=2560"
+                        "path": "/QvbHcF1zOSfCAP6n?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4637,7 +3836,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NEWSErVer-50p.pAgEs.DeV"
+                        "serverName": "SeRver2-bNl.PaGes.dev"
                     }
                 },
                 "tag": "prox-16"
@@ -4714,38 +3913,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "balancerTag": "all",
                     "type": "field"
@@ -4774,7 +3941,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 18",
+        "remarks": "God 18",
         "log": {
             "loglevel": "warning"
         },
@@ -4782,27 +3949,10 @@
             "hosts": {
                 "domain:googleapis.cn": [
                     "googleapis.com"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
                 ]
             },
             "servers": [
-                "https://94.140.14.14/dns-query",
-                {
-                    "address": "8.8.8.8",
-                    "domains": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "expectIPs": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ]
-                }
+                "https://8.8.8.8/dns-query"
             ],
             "tag": "dns"
         },
@@ -4861,7 +4011,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "newserver-50p.pages.dev",
+                            "address": "server2-bnl.pages.dev",
                             "port": 443,
                             "users": [
                                 {
@@ -4883,10 +4033,10 @@
                     },
                     "wsSettings": {
                         "headers": {
-                            "Host": "newserver-50p.pages.dev",
+                            "Host": "server2-bnl.pages.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         },
-                        "path": "/E3s7k5cf2x4aYMhr?ed=2560"
+                        "path": "/JGU1UrYu68SSHWsI?ed=2560"
                     },
                     "tlsSettings": {
                         "allowInsecure": false,
@@ -4895,7 +4045,7 @@
                             "h2",
                             "http/1.1"
                         ],
-                        "serverName": "NeWsErvER-50P.paGes.dEv"
+                        "serverName": "seRvER2-Bnl.pAGes.DEV"
                     }
                 },
                 "tag": "proxy"
@@ -5207,38 +4357,6 @@
                     "type": "field"
                 },
                 {
-                    "ip": [
-                        "8.8.8.8"
-                    ],
-                    "port": "53",
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:private",
-                        "geosite:category-ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "ip": [
-                        "geoip:private",
-                        "geoip:ir"
-                    ],
-                    "outboundTag": "direct",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
-                    "type": "field"
-                },
-                {
                     "network": "tcp",
                     "balancerTag": "all",
                     "type": "field"
@@ -5267,7 +4385,7 @@
         "stats": {}
     },
     {
-        "remarks": "13 19",
+        "remarks": "God 19",
         "log": {
             "loglevel": "warning"
         },
@@ -5277,24 +4395,18 @@
                     "googleapis.com"
                 ],
                 "cloudflare-dns.com": [
-                    "104.16.249.249",
                     "104.16.248.249",
-                    "104.16.132.229",
+                    "104.16.249.249",
                     "104.16.133.229",
+                    "104.16.132.229",
                     "104.17.147.22",
                     "104.17.148.22",
-                    "172.64.33.103",
-                    "173.245.59.103",
                     "108.162.193.103",
-                    "173.245.58.128",
+                    "173.245.59.103",
+                    "172.64.33.103",
+                    "108.162.192.128",
                     "172.64.32.128",
-                    "108.162.192.128"
-                ],
-                "geosite:category-ads-all": [
-                    "127.0.0.1"
-                ],
-                "geosite:category-ads-ir": [
-                    "127.0.0.1"
+                    "173.245.58.128"
                 ]
             },
             "servers": [
@@ -5463,14 +4575,6 @@
                     ],
                     "port": "53",
                     "outboundTag": "dns-out",
-                    "type": "field"
-                },
-                {
-                    "domain": [
-                        "geosite:category-ads-all",
-                        "geosite:category-ads-ir"
-                    ],
-                    "outboundTag": "block",
                     "type": "field"
                 },
                 {
